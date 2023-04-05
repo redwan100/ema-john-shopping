@@ -21,11 +21,11 @@ const Cart = ({ cart, handleClearCart }) => {
     <div className="p-3">
       <h4 className="font-bold text-2xl">Order Summary</h4>
       <p className="my-3">Selected Item: {quantity}</p>
-      <p className="my-3">Total Price: $ {total}</p>
-      <p className="my-3">Total Shipping: {shipping}</p>
-      <p className="my-3">Tex: {tax.toFixed(2)}</p>
+      <p className="my-3">Total Price: ${total}</p>
+      <p className="my-3">Total Shipping: ${shipping}</p>
+      <p className="my-3">Tax: ${tax.toFixed(2)}</p>
       <p className="my-3 font-bold text-2xl">
-        Grand Total: {grandTotal.toFixed(2)}
+        Grand Total: ${grandTotal.toFixed(2)}
       </p>
 
       <div>
